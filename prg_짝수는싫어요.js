@@ -1,13 +1,13 @@
 function solution(n) {
     const arr = new Array();
-    for(i=1; i<=n; i++){
-       if(i%2 !==0){
+    
+    for(i = 1; i <= n; i++){
+       if(i % 2 !==0){
         arr.push(i);
        }
     }
-    return arr
     
-    
+    return arr  
 }
 
 /* const arr = new Array(); 는 const arr = []; 로도 쓸 수 있다 

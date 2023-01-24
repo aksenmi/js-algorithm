@@ -13,7 +13,7 @@ function solution(n, k) {
 //수정 전
 function solution(n, k) {
     let discountPrice = n * 12000 + k * 2000 - parseInt(n/10) * 2000
-    let notdiscountPrice= n * 12000 + k * 2000
+    let notdiscountPrice = n * 12000 + k * 2000
 
     if(n >= 10){
         return discountPrice;
