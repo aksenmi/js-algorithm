@@ -13,4 +13,4 @@ function solution(nums) {
   
 }
 
-/* 맵에 num[i]값이 undefined라면(값이 없으면 undefined함) map.set을 함 */
+/* 맵에 num[i]값이 undefined라면(값이 없으면 undefined함) map.set을   함
